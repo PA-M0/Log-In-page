@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'poppins' ,sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(/Images/Background.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+}
+
+.form-box{
+  
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    width: 350px;
+    height: 370px;
+    background-color:lightgray;
+    display: inline-block;
+    margin: 12% ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    opacity: 0.7;
+}
+.input-box  label{
+    display: block;
+    transform: translateY(56%);
+}
+
+.form-value h2 {
+    text-align: center;
+}
+
+.input-box input{
+    width: 220px;
+    border-width: 20px;
+    padding: 5px;
+    background: transparent;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #000;
+    transition: 0.3s;
+    
+}
+
+input:focus{
+    outline: none;
+    border-radius: 15px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    transform: scale(1.1); 
+}
+i{
+    margin: 15px;
+}
+#remember{
+    font-size:12px;
+    padding: 5px;
+    margin: 50px 0;
+
+
+}
+#submit-button {
+    width: 250px;
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: rgb(27, 27, 27);
+    border: none;
+    color: white;   
+    padding: 8px 105px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 12px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type=submit]:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-10%) scale(1.05);
+    
+}
+
+span {
+    font-size: 14px;
+}
+.creat-account a{
+    font-size: 12px;
+    
+}
+.creat-account a:hover{
+    color:rgb(7, 87, 119);
+}
+.creat-account a:active{
+    color:darkviolet;
+}
+nav h2{
+    float: left;
+    margin: 30px 50px;
+}
+.nav-list ul{
+    list-style-type: none;
+    list-style: none;
+    display:inline-block;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.nav-list li{
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+
+}
+.nav-list li:hover a{
+    transform:translateX(10%) rotate(5deg) ;
+   
+  
+}
+
+
+
+
+
+
+
+
